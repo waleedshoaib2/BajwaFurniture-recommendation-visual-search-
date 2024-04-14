@@ -1,0 +1,40 @@
+.customer-blog-list {
+  /* You might want to adjust the container */
+  margin: 30px auto; /* Center the list with some breathing room */
+  max-width: 1100px; /* Limit max width for larger screens */
+}
+
+.blog-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px; /* Increase the gap between cards */
+}
+
+.blog-card {
+  border: 1px solid #ddd;
+  border-radius: 8px; /* Slightly more rounded corners */
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.blog-card__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0; /* Round only top corners of the image */
+}
+
+.blog-card__title {
+  margin-bottom: 10px;
+  font-weight: 600; /* Slightly less bold title */
+}
+
+.blog-card__button {
+  /* Add button styles here */
+  background-color: #007bff; /* Example button color */
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
